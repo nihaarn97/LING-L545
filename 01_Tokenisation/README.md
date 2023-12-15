@@ -72,7 +72,7 @@ python wer.py reference.txt hypothesis.txt
 in order to evaluate the maxmatch algorithm performance. The output of this is shown below.
 
 <h2> Brief description of performance </h2>
-python wer.py reference.txt hypothesis.txt<br>
+running python wer.py reference.txt hypothesis.txt gives the output<br> 
 
 ```
 REF: これ に 不快 感 を 示す 住民 は い まし た が , 現在 , 表立っ    て 反対 や 抗議 の 声 を 挙げ て いる 住民 は い  ない よう です 。 幸福 の 科学 側 から は , 特に どう し て ほしい と いう 要望 は いただ い て い ませ ん 。 星取り     参加 は 当然 と さ れ , 不 参加 は 白眼   視 さ れる 。 室長 の 対応 に は 終始 誠実 さ が 感じ られ た 。 多く の 女性 が 生理   の こと で 悩ん で い ます 。 先生 の 理想 は 限 りなく    高い 。 それ は 兎も角     , 私 も 明日 の 社説   を 楽しみ に し て おり ます 。
