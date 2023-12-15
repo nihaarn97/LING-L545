@@ -38,24 +38,24 @@ It is difficult to evaluate where the SpaCy sentence segmenter is going wrong as
 
 <h1> Tokenisation </h1>
 <h2> Implementation of maxmatch </h2>
-```
-def maxmatch(text, dictionary):
-    result = []
-    while text:
-        found = False
-        for i in range(len(text), 0, -1):
-            firstword = text[:i]
-            remainder = text[i:]
-            if firstword in dictionary:
-                result.append(firstword)
-                text = remainder
-                found = True
-                break
-        if not found:
-            result.append(text[0])
-            text = text[1:]
-    return ' '.join(result)
-```
+
+def maxmatch(text, dictionary):<br>
+    result = []<br>
+    while text:<br>
+        found = False<br>
+        for i in range(len(text), 0, -1):<br>
+            firstword = text[:i]<br>
+            remainder = text[i:]<br>
+            if firstword in dictionary:<br>
+                result.append(firstword)<br>
+                text = remainder<br>
+                found = True<br>
+                break<br>
+        if not found:<br>
+            result.append(text[0])<br>
+            text = text[1:]<br>
+    return ' '.join(result)<br>
+
 
 <h2> Instructions on how to run it </h2>
 The jupyter notebook in this contains all the code. It runs in the following manner -
