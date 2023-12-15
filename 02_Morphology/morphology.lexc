@@ -1,0 +1,40 @@
+LEXICON Root
+Nouns;
+
+LEXICON Nouns
+ES;
+S;
+I;
+VES;
+Other;
+
+LEXICON ES
+bus%<n%>%<pl%> : buses #;
+box%<n%>%<pl%> : boxes #;
+church%<n%>%<pl%> : churches #;
+crash%<n%>%<pl%> : crashes #;
+lens%<n%>%<pl%> : lenses #;
+peach%<n%>%<pl%> : peaches #;
+
+LEXICON S
+dog%<n%>%<pl%> : dogs #;
+car%<n%>%<pl%> : cars #;
+window%<n%>%<pl%> : windows #;
+song%<n%>%<pl%> : songs #;
+jacket%<n%>%<pl%> : jackets #;
+chip%<n%>%<pl%> : chips #;
+
+LEXICON I
+fungus%<n%>%<pl%> : fungi #;
+syllabus%<n%>%<pl%> : syllabi #;
+terminus%<n%>%<pl%> : termini #;
+
+LEXICON VES
+knife%<n%>%<pl%> : knives #;
+calf%<n%>%<pl%> : calves #;
+shelf%<n%>%<pl%> : shelves #;
+
+LEXICON Other
+goose%<n%>%<pl%> : geese #;
+foot%<n%>%<pl%> : feet #;
+
