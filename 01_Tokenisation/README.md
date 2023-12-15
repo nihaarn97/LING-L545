@@ -38,7 +38,7 @@ It is difficult to evaluate where the SpaCy sentence segmenter is going wrong as
 
 <h1> Tokenisation </h1>
 <h2> Implementation of maxmatch </h2>
-```python
+```
 def maxmatch(text, dictionary):
     result = []
     while text:
